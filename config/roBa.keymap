@@ -80,10 +80,10 @@
 
         default_layer {
             bindings = <
-&kp Q      &kp W         &kp E         &kp R      &kp T                                        &kp Y      &kp U  &kp I      &kp O    &kp P
-&kp A      &kp S         &kp D         &kp F      &kp G      &kp AMPERSAND      &kp MINUS      &kp H      &kp J  &kp K      &kp L    &kp ENTER
-&kp Z      &kp X         &kp C         &kp V      &kp B      &kp COLON          &kp SEMICOLON  &kp N      &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &kp LANG2  &kp SPACE  &kp TAB            &kp BACKSPACE  &kp LANG1                             &kp DEL
+&kp Q      &kp W         &kp E         &kp R        &kp T                                        &kp Y          &kp U  &kp I      &kp O    &kp P
+&kp A      &kp S         &kp D         &kp F        &kp G        &lt 3 LANG1      &lt 2 ENTER    &kp H          &kp J  &kp K      &kp L    &kp SEMICOLON
+&kp Z      &kp X         &kp C         &kp V        &kp B        &kp COLON        &kp RIGHT_GUI  &kp N          &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &lt 1 LANG2  &lt 2 SPACE  &kp TAB          &kp BACKSPACE  &kp RIGHT_ALT                             &kp RSHFT
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -91,10 +91,10 @@
 
         FUNCTION {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                       &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
-&trans  &trans  &trans  &trans  &trans  &trans      &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans  &trans  &trans  &trans  &kp F11
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans                          &kp F12
+&kp LS(Q)  &kp LS(W)  &kp LS(E)  &kp LS(R)  &kp LS(T)                       &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
+&kp LS(A)  &kp LS(S)  &kp LS(D)  &trans     &trans     &trans      &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
+&trans     &trans     &trans     &trans     &trans     &trans      &trans   &trans  &trans  &trans  &trans  &kp F11
+&trans     &trans     &trans     &trans     &trans     &trans      &trans   &trans                          &kp F12
             >;
         };
 
